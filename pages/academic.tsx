@@ -31,7 +31,7 @@ const Overview = () => {
     {
       content: {
         title: "",
-        link: "https://github.com/orectique/orectique.github.io/public/Sreehari-CV.pdf",
+        link: "https://github.com/orectique/portfolio/Sreehari-CV.pdf",
         status: "",
         description: "Complete CV",
         stacks: [""],
