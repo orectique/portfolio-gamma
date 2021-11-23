@@ -1,11 +1,12 @@
 {
-  "homepage": "http://orectique.github.io/",
+  "homepage": "http://orectique.github.io",
   "name": "orectique",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
+    "test": "npm run dev",
     "build": "next build",
     "start": "next start"
   },
