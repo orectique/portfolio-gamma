@@ -28,6 +28,16 @@ const Overview = () => {
       },
     },
 
+    {
+      content: {
+        title: "",
+        link: "https://github.com/orectique/orectique.github.io/public/Sreehari-CV.pdf",
+        status: "",
+        description: "Complete CV",
+        stacks: [""],
+      },
+    },
+
   ];
 
   const overviewList = overviews.map((project, index) => (

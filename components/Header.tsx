@@ -63,18 +63,8 @@ export const Header = () => {
           </ActiveLink>
         </li>
         <li>
-          <ActiveLink activeClassName="a-header" href="././public/Sreehari-CV.pdf" target = "_blank">
-            <a className="header mr-5">Full CV</a>
-          </ActiveLink>
-        </li>
-        <li>
           <ActiveLink activeClassName="a-header" href="/overview">
             <a className="header mr-5">Some works</a>
-          </ActiveLink>
-        </li>
-        <li>
-          <ActiveLink activeClassName="a-header" href="https://github.com/orectique" target = "_blank">
-            <a className="header">GitHub Profile</a>
           </ActiveLink>
         </li>
       </ul>

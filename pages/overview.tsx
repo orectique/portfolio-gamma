@@ -9,7 +9,7 @@ const Overview = () => {
   const overviews = [
     {
       content: {
-        title: "Quatifying Protests",
+        title: "Quantifying Protests",
         link: "https://unrest-mapping.herokuapp.com",
         status: "beta",
         description: "A method to compare geotemporally distinguishable periods of protest.",
@@ -23,6 +23,16 @@ const Overview = () => {
         status: "",
         description: "TEDxAmritaVishwaVidyapeetham 2021",
         stacks: ["Lead Organizer", "Licensee", "Producer"],
+      },
+    },
+
+    {
+      content: {
+        title: "",
+        link: "https://github.com/orectique",
+        status: "",
+        description: "GitHub Repo",
+        stacks: [""],
       },
     },
   ];

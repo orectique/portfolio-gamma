@@ -1,14 +1,13 @@
 {
-  "homepage": "http://orectique.github.io/portfolio-beta",
-  "name": "nextwind",
+  "homepage": "http://orectique.github.io/",
+  "name": "orectique",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "@headlessui/react": "^1.0.0",
