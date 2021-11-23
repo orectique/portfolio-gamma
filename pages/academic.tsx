@@ -9,22 +9,25 @@ const Overview = () => {
   const overviews = [
     {
       content: {
-        title: "Quatifying Protests",
-        link: "https://unrest-mapping.herokuapp.com",
-        status: "beta",
-        description: "A method to compare geotemporally distinguishable periods of protest.",
-        stacks: ["Python", "Dash", "Heroku", "Interactive Graph"],
+        title: "Data Science",
+        link: "https://amrita.edu/program/integrated-m-sc-physics-coimbatore/",
+        status: "ongoing",
+        description: "Integrated Masters in Data Science.",
+        stacks: ["GPA: 4.35", "2020 - ", "ML/Neural Networks", "Adavanced Mathematics", "NLP", "Ethics"],
       },
     },
+
     {
       content: {
-        title: "TEDx Organizer",
-        link: "https://www.ted.com/tedx/events/47533",
-        status: "",
-        description: "TEDxAmritaVishwaVidyapeetham 2021",
-        stacks: ["Lead Organizer", "Licensee", "Producer"],
+        title: "Research",
+        link: "",
+        status: "Internship",
+        description: "Study of time series data under Dr. Peter J. Kempthorne (MIT)",
+        stacks: ["Unrest Evaluation Mapping", "Quantification of Protest", "Joint paper under review"],
+
       },
     },
+
   ];
 
   const overviewList = overviews.map((project, index) => (
@@ -71,7 +74,6 @@ const Overview = () => {
         <div className="md:static fixed md:block w-1/2">
           <Frame radius="rounded-full " />
         </div>
- 
       </motion.div>
     </>
   );

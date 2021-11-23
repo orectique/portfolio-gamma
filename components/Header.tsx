@@ -26,7 +26,7 @@ export const Header = () => {
     <div style={{ height: "10vh" }} className="px-10 flex justify-between">
       <div className="flex items-center">
         <ActiveLink activeClassName="text-third" href="/">
-          <div className="text-4xl cursor-pointer">P.</div>
+          <div className="text-4xl cursor-pointer">C|_|</div>
         </ActiveLink>
 
         <div className="ml-6 flex cursor-pointer mt-2" onClick={toggleTheme}>
@@ -58,8 +58,23 @@ export const Header = () => {
           </ActiveLink>
         </li>
         <li>
+          <ActiveLink activeClassName="a-header" href="/academic">
+            <a className="header mr-5">Academics</a>
+          </ActiveLink>
+        </li>
+        <li>
+          <ActiveLink activeClassName="a-header" href="././public/Sreehari-CV.pdf" target = "_blank">
+            <a className="header mr-5">Full CV</a>
+          </ActiveLink>
+        </li>
+        <li>
           <ActiveLink activeClassName="a-header" href="/overview">
-            <a className="header">Some works</a>
+            <a className="header mr-5">Some works</a>
+          </ActiveLink>
+        </li>
+        <li>
+          <ActiveLink activeClassName="a-header" href="https://github.com/orectique" target = "_blank">
+            <a className="header">GitHub Profile</a>
           </ActiveLink>
         </li>
       </ul>

@@ -222,24 +222,24 @@
 
 @-webkit-keyframes color {
   0% {
-    border-color: #f55;
+    border-color: #879af2;
   }
   50% {
-    border-color: #55f;
+    border-color: #d3208b;
   }
   100% {
-    border-color: #5f5;
+    border-color: #fda000;
   }
 }
 
 @keyframes color {
   0% {
-    border-color: #f55;
+    border-color: #879af2;
   }
   50% {
-    border-color: #55f;
+    border-color: #d3208b;
   }
   100% {
-    border-color: #5f5;
+    border-color: #fda000;
   }
 }
