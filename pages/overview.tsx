@@ -31,7 +31,7 @@ const Overview = () => {
         title: "",
         link: "https://github.com/orectique",
         status: "",
-        description: "GitHub Repo",
+        description: "GitHub Profile",
         stacks: [""],
       },
     },
